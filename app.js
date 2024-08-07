@@ -5,11 +5,11 @@ function GreatingGM()
     const todaydate = date.getDate();
     return
     (
-        <h1>Good Morning </h1>
+        <h1>Good Morning({hour}:{todaydate})</h1>
     )
     
 }
-export
+export default GreatingGM;
 
 
 
