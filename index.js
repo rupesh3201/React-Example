@@ -5,8 +5,7 @@ function SayGm()
     const  hour =  date.getHours();
     const day= date.getTime();
     const year =  date.getFullYear();
-
     return
-    console.log(`Good Morning Guys"${date}:${hour}:${day}:${year}`):
-
+    console.log(`Good Morning Guys"${date}:${hour}:${day}:${year}`)
 }
+export default SayGm;
