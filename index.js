@@ -1,4 +1,7 @@
-import {createRoot} from "react-dom/client";
-import { GreatingGM } from "./app.js"
-const root = createRoot(document.getElementById("Root"));
-root.render(<> <GreatingGM/></>) 
+function SayGm()
+{
+    
+    return
+    console.log("Good Morning Guy's")
+
+}
