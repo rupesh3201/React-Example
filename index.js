@@ -7,6 +7,6 @@ function SayGm()
     const year =  date.getFullYear();
 
     return
-    console.log(`Good Morning Guys"${date}:${hour}:${day}`):
+    console.log(`Good Morning Guys"${date}:${hour}:${day}:${year}`):
 
 }
